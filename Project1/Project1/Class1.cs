@@ -19,4 +19,17 @@ public class Class1
         sum = sum / arr.Length;
         return sum;
     }
+
+    static int maxValue(int[] arr)
+    {
+        int max = 0;
+        for (int a = 0; a < arr.Length; a++)
+        {
+            if (arr[a] > max)
+            {
+                max = arr[a];
+            }
+        }
+        return max;
+    }
 }

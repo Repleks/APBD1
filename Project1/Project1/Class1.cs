@@ -11,13 +11,13 @@ public class Class1
 
     static double AverageCounter(int[] arr)
     {
-        double sum = 0;
+        double suma = 0;
         for (int a = 0; a < arr.Length; a++)
         {
-            sum += arr[a];
+            suma += arr[a];
         }
-        sum = sum / arr.Length;
-        return sum;
+        suma = suma / arr.Length;
+        return suma;
     }
 
     static int maxValue(int[] arr)
